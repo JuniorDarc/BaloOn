@@ -49,13 +49,13 @@ const produtos = {
     5: {
         nome: "Camisa Japan Bege",
         imagem: "img/camisa5.jpg",
-        descricao: "Linha japonesa com visual dark.",
+        descricao: "Minimalismo japonês em tom bege.",
         preco: "R$ 74,90"
     },
     6: {
         nome: "Camisa Japan Black",
         imagem: "img/camisa6.jpg",
-        descricao: "Minimalismo japonês em tom bege.",
+        descricao: "Linha japonesa com visual dark.",
         preco: "R$ 74,90"
     },
     7: {
@@ -131,4 +131,5 @@ ${entregaSelecionada}
         window.open(url, "_blank");
     });
 }
+
 
