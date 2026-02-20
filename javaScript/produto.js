@@ -26,61 +26,85 @@ const produtos = {
         nome: "Camisa BaloOn Art Bege",
         imagem: "img/camisa1.jpg",
         descricao: "Camisa premium BaloOn Black, feita em algodão de alta qualidade.",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
     },
     2: {
         nome: "Camisa BaloOn Art Black",
         imagem: "img/camisa2.jpg",
         descricao: "Design moderno e confortável para o dia a dia.",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
     },
     3: {
         nome: "Camisa BaloOn Art White",
         imagem: "img/camisa3.jpg",
         descricao: "Camisa premium BaloOn Bege, minimalista e estilosa.",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
     },
     4: {
         nome: "Camisa Japan Bege",
         imagem: "img/camisa4.jpg",
         descricao: "Linha japonesa com toque minimalista.",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
     },
     5: {
         nome: "Camisa Japan Black",
         imagem: "img/camisa5.jpg",
         descricao: "Linha japonesa com visual dark.",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
     },
     6: {
         nome: "Camisa Japan White",
         imagem: "img/camisa6.jpg",
         descricao: "Minimalismo japonês em tom bege.",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
     },
     7: {
         nome: "Camisa Dark Gon",
         imagem: "img/camisa7.jpg",
         descricao: "Modelo dark inspirado em anime.",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
     },
     8: {
         nome: "Camisa BaloOn Bege",
         imagem: "img/camisa8.jpg",
         descricao: "Modelo padrão BaloOn",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
     },
     9: {
         nome: "Camisa BaloOn Black",
         imagem: "img/camisa9.jpg",
         descricao: "Modelo padrão BaloOn",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
     },
     10: {
         nome: "Camisa BaloOn White",
         imagem: "img/camisa10.jpg",
         descricao: "Modelo padrão BaloOn",
-        preco: "R$ 74,90"
+        preco: "R$ 79,90"
+    },
+    11: {
+        nome: "Camisa BaloOn Art Roxo",
+        imagem: "img/camisa11.jpg",
+        descricao: "Modelo padrão BaloOn",
+        preco: "R$ 79,90"
+    },
+     12: {
+        nome: "Camisa Japan Roxo",
+        imagem: "img/camisa12.jpg",
+        descricao: "Minimalismo japonês em tom roxo.",
+        preco: "R$ 79,90"
+    },
+     13: {
+        nome: "Camisa Dark Gon Roxa",
+        imagem: "img/camisa13.jpg",
+        descricao: "Modelo dark inspirado em anime.",
+        preco: "R$ 79,90"
+    },
+     14: {
+        nome: "Camisa BaloOn Roxa",
+        imagem: "img/camisa14.jpg",
+        descricao: "Modelo padrão BaloOn",
+        preco: "R$ 79,90"
     }
 };
 
