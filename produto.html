@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-produto.css">
     <title>Produto | BaloOn</title>
 </head>
 <body>
 
 <header>
-    <h1>BaloOn</h1>
+    <div class="logo">
+      <img class="baloon" src="imagens/BaloOn/1.png" alt="BaloOn">
+    </div>
 </header>
 
 <main>
@@ -23,52 +25,34 @@
             <p id="product-description" class="no-select"></p>
             <span class="price" id="product-price" class="no-select"></span>
 
-            <div class="delivery-options">
-    <p>Como você deseja receber?</p>
+                <div class="delivery-options">
+                    <p>Como você deseja receber?</p>
 
-    <label>
-        <input type="radio" name="delivery" value="Retirada na loja">
-        Retirar na loja
-    </label>
+                    <label><input type="radio" name="delivery" value="Retirada na loja">Retirar na loja</label>
+                    <label><input type="radio" name="delivery" value="Entrega em domicílio">Receber em casa</label>
+            
+                </div>
 
-    <label>
-        <input type="radio" name="delivery" value="Entrega em domicílio">
-        Receber em casa
-    </label>
-</div>
+                    <div class="payment-options">
+                    <p>Forma de pagamento</p>
+                    <label><input type="radio" name="payment" value="Pix">Pix</label>
+                    <label><input type="radio" name="payment" value="Cartão">Cartão</label>
+                    <label><input type="radio" name="payment" value="Dinheiro">Dinheiro</label>
 
-<div class="payment-options">
-    <p>Forma de pagamento</p>
+                </div>
+                    <button id="whatsapp-button" class="whatsapp-button">Comprar no WhatsApp</button>
+         </div>
 
-    <label>
-        <input type="radio" name="payment" value="Pix">
-        Pix
-    </label>
-
-    <label>
-        <input type="radio" name="payment" value="Cartão">
-        Cartão
-    </label>
-
-    <label>
-        <input type="radio" name="payment" value="Dinheiro">
-        Dinheiro
-    </label>
-</div>
-
-
-
-            <button id="whatsapp-button" class="whatsapp-button">
-              Comprar no WhatsApp
-            </button>
-        </div>
     </section>
 </main>
 
-<footer>
-    © 2026 - BaloOn. Todos os direitos reservados.
-</footer>
+ <footer class="site-footer">
+    <div class="footer-content">
+      <p>© 2026 - BaloOn. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
-<script src="javaScript/produto.js"></script>
+<script src="javaScript/scriptLgc.js"></script>
+<script src="javaScript/scriptEffects.js"></script>
 </body>
 </html>

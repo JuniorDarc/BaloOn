@@ -1,143 +1,235 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Loja BaloOn</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style-principal.css">
+   
+    <title>Pagina Principal</title>
 </head>
 <body>
-
-    <header>
-        <h1>BaloOn</h1>
-    </header>
-     
-    <div class="instagram-container">
-    <a 
-        href="https://www.instagram.com/baloon081" 
-        target="_blank" 
-        class="instagram-button"
-    >
-        Seguir no Instagram
-    </a>
-</div>
-
-    <main>
-        <section class="about">
-            <h2>Sobre a Loja</h2>
-            <p>
-                A BaloOn nasceu da ideia de criar roupas com identidade, conforto e estilo.
-                Cada camisa é pensada para pessoas que gostam de se expressar através do visual,
-                unindo design moderno e qualidade. Nosso objetivo é entregar peças únicas
-                que façam parte do seu dia a dia. 
-            </p>
-        </section>
-
-        <section class="products">
-
-            <a href="produto.html?id=1" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa1.jpg" alt="Camisa 1">
-        <h3>BaloOn Art Bege</h3>
+    
+   <header id="cabecalho">
+    <!-- Bloco 1: Logo -->
+    <div class="logo">
+      <img class="baloon" src="imagens/BaloOn/1.png" alt="BaloOn">
     </div>
-</a>
+    
+    <!-- Bloco 2: Menu (Se não houver este bloco, a logo fica sozinha na esquerda) -->
+    <nav class="menu">
+      <ul>
+        <li><a href="#Inicio">Início</a></li>
+        <li><a href="#Peitas">Peitas</a></li>
+        <li><a href="#Bermas">Berma</a></li>
+        <li><a href="#Lupas">Lupas</a></li>
+      </ul>
+    </nav>
 
-<a href="produto.html?id=2" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa2.jpg" alt="Camisa 2">
-        <h3>BaloOn Art Black</h3>
+    <!--Bloco 3: barra de pesquisa-->
+    <form action="/buscar" class="barra-pesquisa" >
+      <input type="text" name="q" placeholder="pesquisar produtos...">
+      <button type="submit">Buscar</button>
+    </form>
+
+    <search></search>
+    
+
+    <!--Bloco 4: carrinho de compras-->
+    <div class="carrinho">
+      <img src="imagens/balão.png" alt="BaloOn">
     </div>
-</a>
 
-<a href="produto.html?id=3" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa3.jpg" alt="Camisa 3">
-        <h3>BaloOn Art White</h3>
+  </header>
+
+  <main>
+    <h1 id="Inicio"></h1>
+    <h1 id="Peitas">Peitas</h1>
+    <section class="products">
+
+       <!--Camisas BaloOn Art-->
+      <a href="produto.html?id=1" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/Baloon-white.png" alt="Camisa BaloOn Art">
+          <h3>BaloOn Art White</h3>
+        </div>
+      </a>
+
+      <a href="produto.html?id=2" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/Baloon-black.png" alt="Camisa BaloOn Art">
+          <h3>BaloOn Art Black</h3>
+        </div>
+     </a>
+
+      <a href="produto.html?id=3" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/Baloon-purple.png" alt="Camisa BaloOn Art">
+          <h3>BaloOn Art Purple</h3>
+        </div>
+      </a>
+
+      <!--Camisas Japan Art-->
+     <a href="produto.html?id=4" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/BaloOn-Japan-White.png" alt="Camisa BaloOn Art">
+          <h3>Japan Art White</h3>
+        </div>
+      </a>
+
+     <a href="produto.html?id=5" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/BaloOn-Japan-Black.png" alt="Camisa BaloOn Art">
+          <h3>Japan Art Black</h3>
+        </div>
+      </a>
+
+     <a href="produto.html?id=6" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/BaloOn-Japan-Purple.png" alt="Camisa BaloOn Art">
+          <h3>Japan Art Purple</h3>
+        </div>
+      </a>
+
+      <!--Camisas Maldade Art-->
+      <a href="produto.html?id=7" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/BaloOn-Maldade-White.png" alt="Camisa BaloOn Art">
+          <h3>Maldade Art White</h3>
+        </div>
+      </a>
+
+      <a href="produto.html?id=8" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/BaloOn-Maldade-Black.png" alt="Camisa BaloOn Art">
+          <h3>Maldade Art Black</h3>
+        </div>
+      </a>
+
+      <a href="produto.html?id=9" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/BaloOn-Maldade-Purple.png" alt="Camisa BaloOn Art">
+          <h3>Maldade Art Purple</h3>
+        </div>
+      </a>
+
+      <!--Camisas Gon Art-->
+
+       <a classe class="product-link">
+        <div class="product-card">
+          <img
+            class="carta"
+            src="imagens/background-carta2.png"
+            data-original="imagens/background-carta2.png"
+            data-alternativa="imagens/background-carta3.png"
+            alt="Camisa BaloOn Art"
+          >
+          <h3>Jokey</h3>
+        </div>
+      </a>
+
+      <a id="carta" href="produto.html?id=10" class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_camisas/BaloOn-Gon-Black.png" alt="Camisa BaloOn Art">
+          <h3>Gon Art Black</h3>
+        </div>
+      </a>
+
+      <a class="product-link">
+       <div class="product-card">
+          <img
+            class="carta"
+            src="imagens/background-carta1.png"
+            data-original="imagens/background-carta1.png"
+            data-alternativa="imagens/background-carta3.png"
+            alt="Camisa BaloOn Art"
+          >
+          <h3>King and Queen</h3>
+        </div>
+      </a>
+
+    </section>
+
+    <!--Bermas BaloOn Art-->
+    <h1 id="Bermas">Bermas</h1>
+    <section class="products">
+
+      <a  class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_bermas/BaloOn-Berma-White.png" alt="Berma BaloOn Art">
+          <h3>Berma BaloOn Art White</h3>
+          <h3 style="font-size: 30px; color:brown;" >Em breve</h3>
+        </div>
+      </a>
+
+       <a  class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_bermas/BaloOn-Berma-Black.png" alt="Berma BaloOn Art">
+          <h3>Berma BaloOn Art Black</h3>
+           <h3 style="font-size: 30px; color:brown;">Em breve</h3>
+        </div>
+      </a>
+
+       <a class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_bermas/BaloOn-Berma-Purple.png" alt="Berma BaloOn Art">
+          <h3>Berma BaloOn Art Purple</h3>
+           <h3 style="font-size: 30px; color:brown;" >Em breve</h3>
+        </div>
+      </a>
+
+    </section>
+
+    <!--Lupas BaloOn Art-->
+    <h1 id="Lupas">Lupas</h1>
+    <section class="products">
+      
+       <a class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_Lupas/BaloOn-lupa-roxa.png" alt="Lupa BaloOn ">
+          <h3>Lupa BaloOn Purple</h3>
+           <h3 style="font-size: 30px; color:brown;" >Em breve</h3>
+        </div>
+      </a>
+
+       <a class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_Lupas/BaloOn-lupa-amarela.png" alt="Lupa BaloOn ">
+          <h3>Lupa BaloOn Yellow</h3>
+           <h3 style="font-size: 30px; color:brown;" >Em breve</h3>
+        </div>
+      </a>
+
+       <a class="product-link">
+        <div class="product-card">
+          <img src="imagens/BaloOn_Lupas/BaloOn-lupa-azul.png" alt="Lupa BaloOn ">
+          <h3>Lupa BaloOn Blue</h3>
+           <h3 style="font-size: 30px; color:brown;" >Em breve</h3>
+        </div>
+      </a>
+
+    </section>
+    
+   <footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <p>Contato:</p>
+      <p> Email: wellingtonbaloon@gmail.com</p>
+      <p>  Instagram: <a href="https://www.instagram.com/baloon081?igsh=MWJyajg5eTQ0MDBvMQ%3D%3D&utm_source=qr">@baloon081</a></p>
+      <p>© 2026 - BaloOn. Todos os direitos reservados.</p>
     </div>
-</a>
 
-<a href="produto.html?id=11" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa11.jpg" alt="Camisa 11">
-        <h3>BaloOn Roxo</h3>
-    </div>
-</a>
-
-<a href="produto.html?id=4" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa4.jpg" alt="Camisa 4">
-        <h3>Camisa Japan Bege</h3>
-    </div>
-</a>
-
-<a href="produto.html?id=5" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa5.jpg" alt="Camisa 5">
-        <h3>Camisa Japan Black</h3>
-    </div>
-</a>
-
-<a href="produto.html?id=6" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa6.jpg" alt="Camisa 6">
-        <h3>Camisa Japan White</h3>
-    </div>
-</a>
-
-<a href="produto.html?id=12" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa12.jpg" alt="Camisa 12">
-        <h3>Japan Roxo</h3>
-    </div>
-</a>
-
-<a href="produto.html?id=7" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa7.jpg" alt="Camisa 7">
-        <h3>Camisa Dark Gon</h3>
-    </div>
-</a>
-
-<a href="produto.html?id=13" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa13.jpg" alt="Camisa 13">
-        <h3>Gon Roxo</h3>
-    </div>
-</a>
-
-<a href="produto.html?id=8" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa8.jpg" alt="Camisa 7">
-        <h3>BaloOn Bege</h3>
-    </div>
-</a>
-
-<a href="produto.html?id=9" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa9.jpg" alt="Camisa 7">
-        <h3>BaloOn Black</h3>
-    </div>
-</a>
-
-<a href="produto.html?id=10" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa10.jpg" alt="Camisa 7">
-        <h3>BaloOn White</h3>
-    </div>
-</a>
-<a href="produto.html?id=14" class="product-link">
-    <div class="product-card">
-        <img src="img/camisa14.jpg" alt="Camisa 14">
-        <h3>BaloOn Roxa</h3>
-    </div>
-</a>
-
-        </section>
-    </main>
-
-    <footer>
-        © 2026 - BaloOn. Todos os direitos reservados.
-    </footer>
-
+    <p class="footer-description">
+        A BaloOn nasceu da ideia de criar roupas com identidade, conforto e estilo.
+        Cada camisa é pensada para pessoas que gostam de se expressar através do visual,
+        unindo design moderno e qualidade. Nosso objetivo é entregar peças únicas
+        que façam parte do seu dia a dia. 
+    </p>
+  </div>
+</footer>
+   
+  </main>
+  
+    <script src="javaScript/scriptEffects.js"></script>
 </body>
 </html>
