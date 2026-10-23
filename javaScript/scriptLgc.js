@@ -25,63 +25,63 @@ const produtos = {
     1: {
         nome: "Camisa BaloOn Art White",
         imagem: "imagens/BaloOn_camisas/Baloon-white.png",
-        descricao: "Camisa premium BaloOn Black, feita em algodão de alta qualidade.",
+        descricao: "Camisa premium BaloOn White, feita em algodão de alta qualidade.",
         preco: "R$ 79,90"
     },
     2: {
         nome: "Camisa BaloOn Art Black",
         imagem: "imagens/BaloOn_camisas/Baloon-black.png",
-        descricao: "Design moderno e confortável para o dia a dia.",
+        descricao: "Camisa premium BaloOn Black, feita em algodão de alta qualidade.",
         preco: "R$ 79,90"
     },
     3: {
         nome: "Camisa BaloOn Art Purple",
         imagem: "imagens/BaloOn_camisas/Baloon-purple.png",
-        descricao: "Camisa premium BaloOn Bege, minimalista e estilosa.",
+        descricao: "Camisa premium BaloOn Purple, feita em algodão de alta qualidade.",
         preco: "R$ 79,90"
     },
   
     4: {
         nome: "Camisa Japan White",
         imagem: "imagens/BaloOn_camisas/BaloOn-Japan-White.png",
-        descricao: "Linha japonesa com visual dark.",
+        descricao: "Linha Art Japonesa com visual White.",
         preco: "R$ 79,90"
     },
     5: {
         nome: "Camisa Japan Black",
         imagem: "imagens/BaloOn_camisas/BaloOn-Japan-Black.png",
-        descricao: "Minimalismo japonês em tom bege.",
+        descricao: "Linha Art Japonesa com visual Dark.",
         preco: "R$ 79,90"
     },
     6: {
         nome: "Camisa Japan Purple",
         imagem: "imagens/BaloOn_camisas/BaloOn-Japan-Purple.png",
-        descricao: "Minimalismo japonês em tom roxo.",
+        descricao: "Linha Art Japonesa com visual Purple.",
         preco: "R$ 79,90"
     },
     
     7: {
         nome: "Camisa Maldade White",
         imagem: "imagens/BaloOn_camisas/BaloOn-Maldade-White.png",
-        descricao: "Modelo padrão BaloOn",
+        descricao: "Camisa White Art 'Filho da maldade da rua', Street-Underground",
         preco: "R$ 79,90"
     },
     8: {
         nome: "Camisa Maldade Black",
         imagem: "imagens/BaloOn_camisas/BaloOn-Maldade-Black.png",
-        descricao: "Modelo padrão BaloOn",
+        descricao: "Camisa Black Art 'Filho da maldade da rua', Street-Underground",
         preco: "R$ 79,90"
     },
     9: {
         nome: "Camisa Maldade Purple",
         imagem: "imagens/BaloOn_camisas/BaloOn-Maldade-Purple.png",
-        descricao: "Modelo padrão BaloOn",
+        descricao: "Camisa Purple Art 'Filho da maldade da rua', Street-Underground",
         preco: "R$ 79,90"
     },
     10: {
         nome: "Camisa Dark Gon",
         imagem: "imagens/BaloOn_camisas/BaloOn-Gon-Black.png",
-        descricao: "Modelo dark inspirado em anime.",
+        descricao: "Camisa Black Art Gon + MobPsycho, estilo anime cultura geek",
         preco: "R$ 79,90"
     }
 };
